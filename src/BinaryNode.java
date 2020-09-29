@@ -31,7 +31,6 @@ public class BinaryNode<T> {
         return element;
     }
 
-
     // ----------------------------------------------------------
     /**
      * Set the data value stored in this node.

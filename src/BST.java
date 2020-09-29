@@ -44,23 +44,9 @@ public class BST<T extends Comparable<? super T>> implements
         if (x != null) {
             root = remove(x, root);
             size--;
-        }  
-         
+        }          
     }
-
-    /**
-     * Updates score for a student
-     * @param x 
-     *            generic object
-     * @param score 
-     *            value to update
-     */
-    public void updateScore(T x, int score) {
-        ((Student)this.find(x)).setScore(score);
-    }
-
-
-
+    //Got rid of update score
     /**
      * Finds element x
      * @param x 
@@ -246,4 +232,6 @@ public class BST<T extends Comparable<? super T>> implements
     public java.util.Iterator<T> iterator() {
         return new BSTIterator(root);
     }     
+    
+  
 }

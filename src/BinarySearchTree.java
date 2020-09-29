@@ -8,16 +8,16 @@ public interface BinarySearchTree<T> {
     
     /**
      * Insert
-	 * @param x
-	 *            object to be inserted
-	 */
+     * @param x
+     *            object to be inserted
+     */
     public  void insert(T x);
 
-	/**
-	 * Remove
-	 * @param x
-	 *            object to remove
-	 */
+    /**
+     * Remove
+     * @param x
+     *            object to remove
+     */
     public void remove(T x);
 
     /**
